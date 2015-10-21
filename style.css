@@ -10,11 +10,26 @@ body {
     margin-top: 10%;
 }
 
-.logo {
+.images {
     width: 256px;
     height: 600px;
     right: 60%;
     position: absolute;
+}
+
+.logo {
+    width: 100%;
+    height: 256px;
+    position: absolute;
+    background-image: url('onesquare.png');
+}
+
+.download_icon {
+    width: 100%;
+    height: 98px;
+    position: relative;
+    top: 256px;
+    background-image: url('available_app_store.png');
 }
 
 .introduction {
@@ -71,5 +86,35 @@ p {
         margin-top: 0px;
         background-color: #90CAF9;
         border: 1px solid #90CAF9;
+    }
+}
+
+@media only screen and (min-device-pixel-ratio: 2),
+       only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+        background-image: url('onesquare_2x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .download_icon {
+        background-image: url('available_app_store_2x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-device-pixel-ratio: 3),
+       only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .logo {
+        background-image: url('onesquare_3x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .download_icon {
+        background-image: url('available_app_store_3x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
