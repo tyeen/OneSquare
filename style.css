@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.logo {
+    width: 256px;
+    height: 600px;
+    right: 60%;
+    position: absolute;
+}
+
+.introduction {
+    height: 100%;
+    left: 40%;
+    right: 20%;
+    position: absolute;
+}
+
+h1 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+p {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (max-width: 736px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .logo {
+        position: static;
+        width: 256px;
+        height: 356px;
+        margin: auto;
+    }
+
+    .introduction {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0;
+        margin-top: 0px;
+        background-color: #90CAF9;
+        border: 1px solid #90CAF9;
+    }
+}
