@@ -34,9 +34,21 @@ body {
 
 .introduction {
     height: 100%;
+    width: 40%;
     left: 40%;
     right: 20%;
-    position: absolute;
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    padding-top: 20px;
+    margin: 20px auto;
+    text-align: center;
+    color: #757575;
 }
 
 h1 {
@@ -86,6 +98,14 @@ p {
         margin-top: 0px;
         background-color: #90CAF9;
         border: 1px solid #90CAF9;
+    }
+
+    .footer {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin: 0px;
+        background-color: #212121;
+        border: 1px solid #212121;
     }
 }
 
