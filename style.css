@@ -29,7 +29,11 @@ body {
     height: 98px;
     position: relative;
     top: 256px;
-    background-image: url('available_app_store.png');
+    margin: auto;
+    background-image: url('Download_on_the_App_Store_Badge_US-UK_135x40.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .introduction {
@@ -138,24 +142,12 @@ p {
         background-size: 100%;
         background-repeat: no-repeat;
     }
-
-    .download_icon {
-        background-image: url('available_app_store_2x.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
 }
 
 @media only screen and (min-device-pixel-ratio: 3),
        only screen and (-webkit-min-device-pixel-ratio: 3) {
     .logo {
         background-image: url('onesquare_3x.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .download_icon {
-        background-image: url('available_app_store_3x.png');
         background-size: 100%;
         background-repeat: no-repeat;
     }
