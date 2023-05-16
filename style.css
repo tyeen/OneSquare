@@ -21,7 +21,8 @@ body {
     width: 256px;
     height: 256px;
     position: absolute;
-    background-image: url('onesquare.png');
+    border-radius:22.5%;
+    background-image: url('logo.png');
 }
 
 .download_icon {
@@ -138,7 +139,7 @@ p {
 @media only screen and (min-device-pixel-ratio: 2),
        only screen and (-webkit-min-device-pixel-ratio: 2) {
     .logo {
-        background-image: url('onesquare_2x.png');
+        background-image: url('logo_2x.png');
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -147,7 +148,7 @@ p {
 @media only screen and (min-device-pixel-ratio: 3),
        only screen and (-webkit-min-device-pixel-ratio: 3) {
     .logo {
-        background-image: url('onesquare_3x.png');
+        background-image: url('logo_3x.png');
         background-size: 100%;
         background-repeat: no-repeat;
     }
